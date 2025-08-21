@@ -19,8 +19,9 @@ Perfect for **open-source contributors**, **teammates**, or even **your future s
 ---
 
 ## 📸 Demo
-Coming soon: 🎬 *Animated GIF* showing `record ▶ hover ▶ listen` flow.  
-(We recommend [ScreenToGif](https://www.screentogif.com/) to create a quick demo GIF)
+
+Watch the Demo on Youtube https://www.youtube.com/watch?v=1akAdJ2oL6c&t=130s
+
 
 ---
 
