@@ -58,8 +58,10 @@ export function activate(context: vscode.ExtensionContext) {
     });
   } else if (platform === 'darwin') {
     currentAudioProcess = cp.spawn('afplay', [audioPath], { detached: true, stdio: 'ignore' });
-  } else {
-    currentAudioProcess = cp.spawn('xdg-open', [audioPath], { detached: true, stdio: 'ignore' });
+  } else if (platform === 'linux'){
+    const playCmd = fs.existsSync('/usr/bin/aplay') ? 'aplay' : 'ffplay';
+    const args = playCmd === 'ffplay' ? ['-nodisp', '-autoexit', audioPath] : [audioPath];
+    currentAudioProcess = cp.spawn(playCmd, args, { detached: true, stdio: 'ignore' });
   }
 
   currentAudioProcess.unref();
@@ -330,6 +332,10 @@ function refreshDecorations() {
     panel.webview.onDidReceiveMessage(
       async (message) => {
         if (message.command === 'startRecording') {
+          if (!isSoxInstalled()) {
+            vscode.window.showErrorMessage("🔧 SoX not installed. Please install it with: sudo apt install sox");
+            return;
+          }
           currentTerminal = vscode.window.createTerminal('CodeMurmur Recorder');
           currentTerminal.show();
           currentTerminal.sendText(`node "${recordScript}" "${baseDir}" "${fileName}"`);
@@ -431,4 +437,15 @@ function getWebviewContent(): string {
     </body>
     </html>
   `;
+}
+
+function isSoxInstalled() {
+  if (process.platform !== 'linux') return true;
+  const cp = require('child_process');
+  try {
+    cp.execSync('which sox', { stdio: 'ignore' });
+    return true;
+  } catch {
+    return false;
+  }
 }

@@ -9,10 +9,10 @@
   "categories": [
     "Other"
   ],
-     "activationEvents": [
-      "onStartupFinished",
-      "onLanguage:*"
-    ],
+  "activationEvents": [
+    "onStartupFinished",
+    "onLanguage:*"
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
@@ -21,26 +21,26 @@
         "title": "codemurmur: Record Voice Note"
       },
       {
-      "command": "codemurmur.playMurmur",
-      "title": "codemurmur: Play Murmur"
+        "command": "codemurmur.playMurmur",
+        "title": "codemurmur: Play Murmur"
       },
       {
-      "command": "codemurmur.confirmDeleteMurmur",
-      "title": "codemurmur: Confirm Delete Murmur"
+        "command": "codemurmur.confirmDeleteMurmur",
+        "title": "codemurmur: Confirm Delete Murmur"
       },
       {
-      "command": "codemurmur.editMurmur",
-      "title": "codemurmur: Confirm Editing Murmur"
+        "command": "codemurmur.editMurmur",
+        "title": "codemurmur: Confirm Editing Murmur"
       }
     ],
     "keybindings": [
       {
         "command": "codemurmur.recordMurmur",
-        "key": "alt+f5",
+        "key": "Ctrl+Shift+M",
         "when": "editorTextFocus"
       }
     ],
-   "files": [
+    "files": [
       "out",
       "murmur.svg"
     ]
@@ -55,17 +55,17 @@
   },
   "devDependencies": {
     "@types/mocha": "^10.0.10",
-    "@types/node": "20.x",
-    "@types/vscode": "^1.102.0",
+    "@types/node": "^20.19.11",
     "@typescript-eslint/eslint-plugin": "^8.31.1",
     "@typescript-eslint/parser": "^8.31.1",
     "@vscode/test-cli": "^0.0.11",
     "@vscode/test-electron": "^2.5.2",
     "eslint": "^9.25.1",
-    "typescript": "^5.8.3"
+    "typescript": "^5.9.2",
+    "vscode": "^1.1.37"
   },
   "dependencies": {
-    "murmur": "^2.1.2",
+    "mic": "^2.1.1",
     "node-record-lpcm16": "^1.0.1"
   }
 }
