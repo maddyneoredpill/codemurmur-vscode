@@ -81,23 +81,19 @@ Edit: Update line numbers without re-recording
 
    Clone the Repo
 
-      ```
       git clone https://github.com/maddyneoredpill/codemurmur-vscode.git
       cd codemurmur-vscode\CodeMurmur
-      ```
+      
    
    Install Dependencies
 
-      ```
       npm install
-      ```
+      
    
    Open in VS Code and Run
 
-      ```
       code .
-      ```
-
+      
    Press F5 or go to Run > Start Debugging
    This launches a new Extension Development Host window Open a existing or new project in this Extension Development Window and press (Ctrl+Shift+M) to record Murmur
 
@@ -105,22 +101,19 @@ Edit: Update line numbers without re-recording
 
    Clone the Repo
 
-      ```
       git clone https://github.com/maddyneoredpill/codemurmur-vscode.git
       cd codemurmur-vscode/CodeMurmur
-      ```
+      
 
    Install Dependencies
 
-      ```
       npm install
-      ```
+      
 
    Run in VS Code
 
-      ```bah
       code .
-      ```
+      
 
    Press F5 to open the Extension Host
    This launches a new Extension Development Host window Open a existing or new project in this Extension Development Window and press (Ctrl+Shift+M) to record Murmur
