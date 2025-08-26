@@ -37,11 +37,8 @@ Perfect for **open-source contributors**, **teammates**, or even **your future s
 ▶ How to Use
 🎙️ Record a Murmur
 
-Open Command Palette (Ctrl+Shift+M)
-
-Run: CodeMurmur: Record Murmur
-
-Speak your explanation and stop to save
+Select Lines for which you want to record Murmur and press Ctrl+Shift+M
+You get a web control to start recording, Speak your explanation and stop to save.
 
 🎧 Play a Murmur
 
@@ -64,8 +61,11 @@ Edit: Update line numbers without re-recording
 
 📁 Folder Structure
 .code_murmur/
+
  ├── murmurs.json       # Metadata (file, line, audio)
+
  └── recordings/
+ 
          └── murmur_xxx.wav
 
 🧰 Developer Setup (For Testers & Contributors)
