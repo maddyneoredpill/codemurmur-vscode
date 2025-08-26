@@ -45,7 +45,7 @@ Speak your explanation and stop to save
 
 🎧 Play a Murmur
 
-A ![murmur icon](./media/murmur.svg) icon appears in the gutter icon appears in the gutter
+A ![murmur icon](./CodeMurmur/media/murmur.svg) icon appears in the gutter icon appears in the gutter
 
 Hover to see tooltip and click "Listen to the murmur"
 
@@ -82,16 +82,21 @@ Edit: Update line numbers without re-recording
       ⚠️ During setup, check the option: "Add to PATH"
 
    Clone the Repo
-      ```bash
+
+      ```
       git clone https://github.com/maddyneoredpill/codemurmur-vscode.git
       cd codemurmur-vscode\CodeMurmur
       ```
+   
    Install Dependencies
-      ```bash
+
+      ```
       npm install
       ```
+   
    Open in VS Code and Run
-      ```bash
+
+      ```
       code .
       ```
 
@@ -101,18 +106,24 @@ Edit: Update line numbers without re-recording
 🐧 Linux Setup (Tested on Ubuntu)
 
    Clone the Repo
-      ```bash
+
+      ```
       git clone https://github.com/maddyneoredpill/codemurmur-vscode.git
       cd codemurmur-vscode/CodeMurmur
       ```
+
    Install Dependencies
-      ```bash
+
+      ```
       npm install
       ```
+
    Run in VS Code
-      ```bash
+
+      ```bah
       code .
       ```
+
    Press F5 to open the Extension Host
    This launches a new Extension Development Host window Open a existing or new project in this Extension Development Window and press (Ctrl+Shift+M) to record Murmur
 
