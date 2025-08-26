@@ -34,37 +34,38 @@ Perfect for **open-source contributors**, **teammates**, or even **your future s
 2. Install it manually:
    ```bash
    code --install-extension codemurmur-x.x.x.vsix
+▶ How to Use
+🎙️ Record a Murmur
 
-🛠️ How to Use
-▶ Trigger Recording
-Open Command Palette (Ctrl+Shift+M)
+Open Command Palette (Ctrl+Shift+P)
 
-Run CodeMurmur: Record Murmur
+Run: CodeMurmur: Record Murmur
 
 Speak your explanation and stop to save
 
-🎧 View & Play
+🎧 Play a Murmur
+
 A 🎙 mic icon appears in the gutter
 
-Hover to see a tooltip and click Listen to the murmur
+Hover to see tooltip and click "Listen to the murmur"
 
 🗑️ Manage Murmurs
-Delete: Removes audio and metadata
 
-Edit: Update line numbers while keeping the same murmur
+Delete: Removes audio + metadata
+
+Edit: Update line numbers without re-recording
 
 💡 Use Cases
+
 Explain complex logic without long comments
 
 Leave context for your future self
 
-Mentor junior developers with richer guidance
+Mentor junior developers with rich guidance
 
 Code review with quick verbal feedback
 
-
-📁 Folder Structure in your root project folder
-
+📁 Folder Structure
 .code_murmur/
  ├── murmurs.json       # Metadata (file, line, audio)
  └── recordings/
@@ -73,63 +74,73 @@ Code review with quick verbal feedback
 🧰 Developer Setup (For Testers & Contributors)
 ✅ Prerequisites (All Platforms)
 
-Node.js
- (v18 or later)
-
-Git
-
-Visual Studio Code
+   Node.js
+   (v18 or later)
+   Git
+   Visual Studio Code
 
 🪟 Windows Setup
 
-1. Install VLC
-   Download VLC for Windows
+Install VLC
+Download VLC for Windows
 
-   ⚠️ During setup, check the option: "Add to PATH"
+⚠️ During setup, check the option: "Add to PATH"
 
-2. Clone the Repo
-
+Clone the Repo
+   ```bash
    git clone https://github.com/maddyneoredpill/codemurmur-vscode.git
    cd codemurmur-vscode\CodeMurmur
 
-3. Install Dependencies
+
+Install Dependencies
+   ```bash
    npm install
 
-4. Open in VS Code and Run
-   code .
-   
-   Press F5 or go to Run > Start Debugging
 
-   This launches a new Extension Development Host window
-   Open a existing or new project in this Extension Development Window and press (Ctrl+Shift+M) to record Murmur
+Open in VS Code and Run
+   ```bash
+   code .
+
+
+Press F5 or go to Run > Start Debugging
+This launches a new Extension Development Host window Open a existing or new project in this Extension Development Window and press (Ctrl+Shift+M) to record Murmur
 
 🐧 Linux Setup (Tested on Ubuntu)
 
-1. Clone the Repo
+Clone the Repo
+   ```bash
    git clone https://github.com/maddyneoredpill/codemurmur-vscode.git
    cd codemurmur-vscode/CodeMurmur
 
-2. Install Dependencies
+
+Install Dependencies
+   ```bash
    npm install
 
-3. Run in VS Code
+
+Run in VS Code
+   ```bash
    code .
 
 Press F5 to open the Extension Host
-Open a existing or new project in this Extension Development Window and press (Ctrl+Shift+M) to record Murmur
+This launches a new Extension Development Host window Open a existing or new project in this Extension Development Window and press (Ctrl+Shift+M) to record Murmur
+
+✅ On Linux, most systems can play audio using built-in players (aplay, ffplay, etc.) — no need to install VLC.
 
 🤝 Contributing
+
 Contributions are welcome!
 
-Open issues for feature requests and bugs
+Open issues for bugs or ideas
 
-PRs are encouraged (voice of the devs 😉)
+Submit PRs — your voice matters (literally 😉)
 
 📜 License
+
 MIT License — free to use, modify, and share.
-See LICENSE for full terms.
+See LICENSE
+ for full terms.
 
 🌟 Support
-If you like CodeMurmur, star the repo ⭐ and help spread the word!
 
-
+If you like CodeMurmur, please star the repo ⭐, share it, and help us bring voice to code!
