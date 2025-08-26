@@ -37,7 +37,7 @@ Perfect for **open-source contributors**, **teammates**, or even **your future s
 ▶ How to Use
 🎙️ Record a Murmur
 
-Open Command Palette (Ctrl+Shift+P)
+Open Command Palette (Ctrl+Shift+M)
 
 Run: CodeMurmur: Record Murmur
 
@@ -45,7 +45,7 @@ Speak your explanation and stop to save
 
 🎧 Play a Murmur
 
-A 🎙 mic icon appears in the gutter
+A ![murmur icon](./media/murmur.svg) icon appears in the gutter icon appears in the gutter
 
 Hover to see tooltip and click "Listen to the murmur"
 
@@ -57,90 +57,81 @@ Edit: Update line numbers without re-recording
 
 💡 Use Cases
 
-Explain complex logic without long comments
-
-Leave context for your future self
-
-Mentor junior developers with rich guidance
-
-Code review with quick verbal feedback
+   - Explain complex logic without long comments
+   - Leave context for your future self
+   - Mentor junior developers with rich guidance
+   - Code review with quick verbal feedback
 
 📁 Folder Structure
 .code_murmur/
  ├── murmurs.json       # Metadata (file, line, audio)
  └── recordings/
-      └── murmur_xxx.wav
+         └── murmur_xxx.wav
 
 🧰 Developer Setup (For Testers & Contributors)
 ✅ Prerequisites (All Platforms)
 
-   Node.js
-   (v18 or later)
-   Git
-   Visual Studio Code
+   - Node.js (v18 or later)
+   - Git
+   - Visual Studio Code
 
 🪟 Windows Setup
 
-Install VLC
-Download VLC for Windows
+   Install VLC
+      Download VLC for Windows
+      ⚠️ During setup, check the option: "Add to PATH"
 
-⚠️ During setup, check the option: "Add to PATH"
+   Clone the Repo
+      ```bash
+      git clone https://github.com/maddyneoredpill/codemurmur-vscode.git
+      cd codemurmur-vscode\CodeMurmur
+      ```
+   Install Dependencies
+      ```bash
+      npm install
+      ```
+   Open in VS Code and Run
+      ```bash
+      code .
+      ```
 
-Clone the Repo
-   ```bash
-   git clone https://github.com/maddyneoredpill/codemurmur-vscode.git
-   cd codemurmur-vscode\CodeMurmur
-
-
-Install Dependencies
-   ```bash
-   npm install
-
-
-Open in VS Code and Run
-   ```bash
-   code .
-
-
-Press F5 or go to Run > Start Debugging
-This launches a new Extension Development Host window Open a existing or new project in this Extension Development Window and press (Ctrl+Shift+M) to record Murmur
+   Press F5 or go to Run > Start Debugging
+   This launches a new Extension Development Host window Open a existing or new project in this Extension Development Window and press (Ctrl+Shift+M) to record Murmur
 
 🐧 Linux Setup (Tested on Ubuntu)
 
-Clone the Repo
-   ```bash
-   git clone https://github.com/maddyneoredpill/codemurmur-vscode.git
-   cd codemurmur-vscode/CodeMurmur
+   Clone the Repo
+      ```bash
+      git clone https://github.com/maddyneoredpill/codemurmur-vscode.git
+      cd codemurmur-vscode/CodeMurmur
+      ```
+   Install Dependencies
+      ```bash
+      npm install
+      ```
+   Run in VS Code
+      ```bash
+      code .
+      ```
+   Press F5 to open the Extension Host
+   This launches a new Extension Development Host window Open a existing or new project in this Extension Development Window and press (Ctrl+Shift+M) to record Murmur
 
-
-Install Dependencies
-   ```bash
-   npm install
-
-
-Run in VS Code
-   ```bash
-   code .
-
-Press F5 to open the Extension Host
-This launches a new Extension Development Host window Open a existing or new project in this Extension Development Window and press (Ctrl+Shift+M) to record Murmur
-
-✅ On Linux, most systems can play audio using built-in players (aplay, ffplay, etc.) — no need to install VLC.
+   ✅ On Linux, most systems can play audio using built-in players (aplay, ffplay, etc.) — no need to install VLC.
 
 🤝 Contributing
 
-Contributions are welcome!
+   Contributions are welcome!
 
-Open issues for bugs or ideas
+   Open issues for bugs or ideas
 
-Submit PRs — your voice matters (literally 😉)
+   Submit PRs — your voice matters (literally 😉)
 
 📜 License
 
-MIT License — free to use, modify, and share.
-See LICENSE
- for full terms.
+   MIT License — free to use, modify, and share.
+   See LICENSE
+   for full terms.
 
 🌟 Support
 
-If you like CodeMurmur, please star the repo ⭐, share it, and help us bring voice to code!
+   If you like CodeMurmur, please star the repo ⭐, share it, and help us bring voice to code!
