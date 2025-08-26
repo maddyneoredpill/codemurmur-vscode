@@ -67,5 +67,9 @@
   "dependencies": {
     "mic": "^2.1.1",
     "node-record-lpcm16": "^1.0.1"
+  },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/maddyneoredpill/codemurmur-vscode.git"
   }
 }
