@@ -79,6 +79,10 @@ Edit: Update line numbers without re-recording
       Download VLC for Windows
       ⚠️ During setup, check the option: "Add to PATH"
 
+      Install SoX (Sound eXchange)  
+      [Download SoX for Windows](https://sourceforge.net/projects/sox/files/sox/)  
+      ⚠️ During install, check "Add to PATH"
+
    Clone the Repo
 
       git clone https://github.com/maddyneoredpill/codemurmur-vscode.git
