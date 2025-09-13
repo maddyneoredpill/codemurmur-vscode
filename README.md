@@ -33,7 +33,7 @@ Perfect for **open-source contributors**, **teammates**, or even **your future s
 1. Download the latest `.vsix` from the [Releases](https://github.com/maddyneoredpill/codemurmur-vscode/releases)  
 2. Install it manually:
    ```bash
-   code --install-extension codemurmur-x.x.x.vsix
+   code --install-extension codemurmur-0.0.1.vsix
 ▶ How to Use
 🎙️ Record a Murmur
 
