@@ -76,8 +76,11 @@ Edit: Update line numbers without re-recording
 
 
 /.code_murmur/
+
              ├── murmurs.json       # Metadata (file, line, audio)
+             
                              └── recordings/
+                             
                                             └── murmur_xxx.wav
 
 ### 🧰 Developer Setup (For Testers & Contributors)
