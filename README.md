@@ -30,7 +30,7 @@ Perfect for **open-source contributors**, **teammates**, or even **your future s
 
 ### From `.vsix` File
 
-1. Download the latest `.vsix` from the [Releases](https://github.com/maddyneoredpill/codemurmur-vscode/releases)  
+1. Download the latest `.vsix` from the https://github.com/maddyneoredpill/codemurmur-vscode/blob/main/CodeMurmur/codemurmur-0.0.1.vsix  
 2. Install it manually:
    ```bash
    code --install-extension codemurmur-0.0.1.vsix
