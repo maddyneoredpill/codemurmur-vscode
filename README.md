@@ -32,7 +32,8 @@ Perfect for **open-source contributors**, **teammates**, or even **your future s
 
 1. Download the latest `.vsix` from the https://github.com/maddyneoredpill/codemurmur-vscode/blob/main/CodeMurmur/codemurmur-0.0.1.vsix  
 2. Install it manually:
-   ```bash
+   Open Terminal in VS Code and traverse to path of .vsix download the follow run below command
+    ```bash
    code --install-extension codemurmur-0.0.1.vsix
 ▶ How to Use
 🎙️ Record a Murmur
