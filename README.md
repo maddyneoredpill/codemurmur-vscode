@@ -78,7 +78,7 @@ Edit: Update line numbers without re-recording
  └── recordings/
          └── murmur_xxx.wav
 
-🧰 Developer Setup (For Testers & Contributors)
+### 🧰 Developer Setup (For Testers & Contributors)
 
 ✅ Prerequisites (All Platforms)
 
