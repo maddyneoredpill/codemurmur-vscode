@@ -73,11 +73,13 @@ Edit: Update line numbers without re-recording
    - Code review with quick verbal feedback
 
 📁 Folder Structure
+
 Your Project Root Folder/.code_murmur/
 
  ├── murmurs.json       # Metadata (file, line, audio)
  
  └── recordings/
+ 
           └── murmur_xxx.wav
 
 ### 🧰 Developer Setup (For Testers & Contributors)
