@@ -72,15 +72,15 @@ Edit: Update line numbers without re-recording
    - Mentor junior developers with rich guidance
    - Code review with quick verbal feedback
 
-📁 Folder Structure
+📁 Folder Structure(stored in Your Project Root Folder)
 
-Your Project Root Folder/.code_murmur/
+/.code_murmur/
 
- ├── murmurs.json       # Metadata (file, line, audio)
+             ├── murmurs.json       # Metadata (file, line, audio)
  
- └── recordings/
+                             └── recordings/
  
-          └── murmur_xxx.wav
+                                            └── murmur_xxx.wav
 
 ### 🧰 Developer Setup (For Testers & Contributors)
 
