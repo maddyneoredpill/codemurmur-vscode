@@ -27,16 +27,16 @@ Perfect for **open-source contributors**, **teammates**, or even **your future s
 
 ### From `.vsix` File
 
-🪟 Windows Setup(Tested on Windows 11)
-   Install VLC
-      Download VLC for Windows
-      ⚠️ During setup, check the option: "Add to PATH"
-
-   Install SoX (Sound eXchange)
-      [Download SoX for Windows](https://sourceforge.net/projects/sox/files/sox/)  
-      ⚠️ During install, check "Add to PATH"
-
-🐧 On Linux, most systems can play audio using built-in players (aplay, ffplay, etc.) — no need to install VLC.
+   🪟 Windows Setup(Tested on Windows 11)
+      Install VLC
+         Download VLC for Windows
+         ⚠️ During setup, check the option: "Add to PATH"
+   
+      Install SoX (Sound eXchange)
+         [Download SoX for Windows](https://sourceforge.net/projects/sox/files/sox/)  
+         ⚠️ During install, check "Add to PATH"
+   
+   🐧 On Linux, most systems can play audio using built-in players (aplay, ffplay, etc.) — no need to install VLC.
 
 1. Download the latest `.vsix` from the https://github.com/maddyneoredpill/codemurmur-vscode/blob/main/CodeMurmur/codemurmur-0.0.1.vsix  
 2. Install it manually:
